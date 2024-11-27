@@ -77,13 +77,13 @@ const Faq = () => {
               >
                 {faq.question}
               </h2>
-              <span
+              {/* <span
                 className={`transition-transform duration-200 ${
                   faqOpen.includes(index) ? "rotate-180" : ""
                 } text-blue-500`}
               >
                 ▼
-              </span>
+              </span> */}
             </div>
             {faqOpen.includes(index) && (
               <div className="p-4 bg-blue-50 text-gray-700">
